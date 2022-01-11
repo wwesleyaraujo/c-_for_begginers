@@ -5,31 +5,23 @@
 
 using namespace std;
 class Player{
-
     private:
         std::string name;
         int health;
         int xp;
     
     public:
+        Player(std::string name="None", int health=0, int xp=0);
 
-        // Inicialization list
-        Player():  Player{"None",0,0}{  
-            cout << "No args" <<endl;
+        //Destructor
+        ~Player(){
+            cout << "Calling destructor"<<endl;
         }
-        Player(std::string name): Player{name,0,0} {
-            cout<< "  1 arg"<<endl;
-        }
-        Player(std::string name, int health, int xp):name{name},health{health}, xp{xp}{
-            cout << " three args"<<endl;
-        }
+    };
 
-    //Destructor
-    ~Player(){
-        cout << "Calling destructor"<<endl;
-    }
-};
-
-
+Player::Player(std::string name_val, int health_val, int xp_val) 
+    :name{name_val}, health{health_val},xp{xp_val} {  
+        cout << "All args" <<endl;
+}
 
 #endif
