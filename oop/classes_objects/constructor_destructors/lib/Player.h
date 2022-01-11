@@ -14,14 +14,14 @@ class Player{
     public:
 
         // Inicialization list
-        Player(): name{"None"}, health{0}, xp{0}{  
-            cout << "No args";
+        Player():  Player{"None",0,0}{  
+            cout << "No args" <<endl;
         }
-        Player(std::string name): name{name}, health{0}, xp{0}{
-            cout<< "Passing name to constructor"<<endl;
+        Player(std::string name): Player{name,0,0} {
+            cout<< "  1 arg"<<endl;
         }
         Player(std::string name, int health, int xp):name{name},health{health}, xp{xp}{
-            cout << "Passing all args"<<endl;
+            cout << " three args"<<endl;
         }
 
     //Destructor
