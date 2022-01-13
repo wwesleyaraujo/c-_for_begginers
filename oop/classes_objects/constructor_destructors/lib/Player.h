@@ -29,7 +29,7 @@ std::string Player::toString(){
       str=str+this->name;
       str = str+std::string("\n");
       str=str+(std::string)("Health: ");
-      str=str +to_string(this->health);
+      str=str +to_string(this->health);  
       str = str+std::string("\n");
       str=str+(std::string)("Xp: ");
       str=str +to_string(this->xp);
