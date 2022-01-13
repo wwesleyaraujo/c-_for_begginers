@@ -10,6 +10,7 @@ class Deep{
     private:
         int *data;
     public:
+        Deep();
         Deep(int d);
         Deep(Deep &deep);
         ~Deep();
@@ -22,6 +23,10 @@ class Deep{
         }
 };
 
+//Delegating contructor 1 arg
+Deep::Deep():Deep{0}{
+    cout<<"contructor no args, default values"<<endl;
+}
 Deep::Deep(int d){
     data = new int;
     *data = d;
