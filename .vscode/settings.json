@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "initializer_list": "c",
+        "ostream": "c",
+        "iostream": "c",
+        "string": "c"
+    }
+}
