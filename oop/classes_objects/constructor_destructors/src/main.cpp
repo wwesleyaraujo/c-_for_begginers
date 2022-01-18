@@ -45,7 +45,7 @@ Move::Move(const Move &source):Move{*source.data}{
 }
 Move::Move( Move &&source)noexcept:data{source.data}{
       source.data = nullptr;
-      std::cout << "Move constructor - moving source "<< *data <<  std::endl;
+      std::cout << "Move constructor -  moving source "<< *data <<  std::endl;
 }
 int main(){
   
