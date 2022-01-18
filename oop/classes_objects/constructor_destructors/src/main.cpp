@@ -21,6 +21,7 @@ class Move{
         int getData(){
             return *data;
         }
+        Move( Move &&source)noexcept;
 };
 
 Move::Move(int d){
@@ -41,6 +42,10 @@ Move::~Move(){
 }
 Move::Move(const Move &source):Move{*source.data}{
       std::cout << "Copy constructor - deep copy for "<< *data <<  std::endl;
+}
+Move::Move( Move &&source)noexcept:data{source.data}{
+      source.data = nullptr;
+      std::cout << "Move constructor - moving source "<< *data <<  std::endl;
 }
 int main(){
   
