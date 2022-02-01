@@ -48,15 +48,9 @@ Move::Move( Move &&source)noexcept:data{source.data}{
       std::cout << "Move constructor -  moving source "<< *data <<  std::endl;
 }
 int main(){
-  
-  std::vector<Move> vec;
-  vec.push_back(Move{10});
-  vec.push_back(Move{20});
-  vec.push_back(Move{30});
-  vec.push_back(Move{40});
-   vec.push_back(Move{50});
-  vec.push_back(Move{60});
-   vec.push_back(Move{80});
-  vec.push_back(Move{90});
-  return 0;
+    const Move m1{10};
+
+    // Erro because the method is accessing const obj and 
+    // But, it ins't const method 
+  //   cout<<m1.getData()<<endl;
 }
