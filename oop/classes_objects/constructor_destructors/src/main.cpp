@@ -18,7 +18,7 @@ class Move{
         void setData(int  d){
             *data = d;
         }
-        int getData(){
+        int getData() const{  //always should indicate const for methods dont modify the obj
             return *data;
         }
         Move( Move &&source)noexcept;
@@ -53,4 +53,6 @@ int main(){
     // Erro because the method is accessing const obj and 
     // But, it ins't const method 
   //   cout<<m1.getData()<<endl;
+  //  After change method for const : int getData() const , we can access 
+      cout<<m1.getData()<<endl;
 }
