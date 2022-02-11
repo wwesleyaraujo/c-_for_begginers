@@ -6,6 +6,7 @@
 using namespace std;
 class Player{
     private:
+        static int num_players ; 
         std::string name;
         int health;
         int xp;
@@ -14,6 +15,9 @@ class Player{
         Player(const Player &player);
         Player(std::string name="None", int health=0, int xp=0);
         std::string toString();
+
+        int get_num_players();
+
         //Destructor
         ~Player(){
             cout << "Calling destructor"<<endl;
@@ -39,4 +43,7 @@ Player::Player(const Player &player):name{player.name},health{player.health},xp{
     cout<<"Copying a constructor"<<endl;
 }
 
+int Player::get_num_players(){
+    return this->num_players;
+}
 #endif
