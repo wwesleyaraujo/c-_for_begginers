@@ -24,9 +24,9 @@ void Movies::incWatch(std::string name){
 }
 
 void Movies::displayMovies(){
-     Movie m{} ;
-    for ( int i = 0 ;this->mv_collection.size(); i++){
-       m = mv_collection[i];
+    
+    for ( auto m : mv_collection){
+    
         std::cout << "Name: " << m.getName() << " | Rating: "<< m.getRatingStr()<< " | Watched: "<< m.getWatched()<<std::endl;
     }
     return; 
