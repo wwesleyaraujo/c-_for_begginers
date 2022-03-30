@@ -1,9 +1,12 @@
 #include <iostream>
-#include "Movie.h"
+#include "Movies.h"
 
 int main(){
-    Movie m1{"Spider man", Rating::R , 0};
-
-    std::cout << "Name: " << m1.getName() << " | Rating: "<< m1.getRatingStr()<< " | Watched: "<< m1.getWatched()<<std::endl;
-
+    Movies *mv_list = new Movies();
+    mv_list->addMovie("Spider man", Rating::R, 0);
+    mv_list->addMovie("Spider man", Rating::R, 0);
+    mv_list->addMovie("Spider man", Rating::R, 0);
+    mv_list->addMovie("Mario", Rating::R, 0);
+    //mv_list->addMovie("Spider man", Rating::R, 0);
+    mv_list->displayMovies();
 }

@@ -16,17 +16,19 @@ class Player{
         Player(std::string name="None", int health=0, int xp=0);
         std::string toString();
 
-        int get_num_players();
+         static int get_num_players();
 
         //Destructor
         ~Player(){
             cout << "Calling destructor"<<endl;
+            --num_players;
         }
     };
 
 Player::Player(std::string name_val, int health_val, int xp_val) 
     :name{name_val}, health{health_val},xp{xp_val} {  
         cout << "All args" <<endl;
+        num_players ++;
 }
 std::string Player::toString(){
       std::string str{(std::string)("name: ")};
@@ -41,9 +43,10 @@ std::string Player::toString(){
 }
 Player::Player(const Player &player):name{player.name},health{player.health},xp{player.xp}{
     cout<<"Copying a constructor"<<endl;
+    num_players ++ ;
 }
 
 int Player::get_num_players(){
-    return this->num_players;
+    return num_players;
 }
 #endif
