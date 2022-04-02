@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsay_hello_account.a  CMakeFiles/say_hello_account.dir/Account.cpp.o
+/usr/bin/ranlib libsay_hello_account.a

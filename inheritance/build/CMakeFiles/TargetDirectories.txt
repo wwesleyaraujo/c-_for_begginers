@@ -1,0 +1,4 @@
+/home/jose/courses/c_plus_plus_for_begginers/inheritance/build/CMakeFiles/rebuild_cache.dir
+/home/jose/courses/c_plus_plus_for_begginers/inheritance/build/CMakeFiles/edit_cache.dir
+/home/jose/courses/c_plus_plus_for_begginers/inheritance/build/CMakeFiles/Bank.dir
+/home/jose/courses/c_plus_plus_for_begginers/inheritance/build/CMakeFiles/say_hello_account.dir
