@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/Bank.dir/main.cpp.o  -o Bank  libsay_hello_account.a 

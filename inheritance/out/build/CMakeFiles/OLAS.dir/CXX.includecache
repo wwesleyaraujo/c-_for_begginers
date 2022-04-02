@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jose/courses/c_plus_plus_for_begginers/inheritance/main.cpp
+iostream
+-
+src/Account.h
+/home/jose/courses/c_plus_plus_for_begginers/inheritance/src/Account.h
+
+/home/jose/courses/c_plus_plus_for_begginers/inheritance/src/Account.h
+

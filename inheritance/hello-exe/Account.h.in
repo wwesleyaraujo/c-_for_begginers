@@ -1,3 +1,0 @@
-// the configured options and settings for Tutorial
-#define Bank_VERSION_MAJOR @Bank_VERSION_MAJOR@
-#define Bank_VERSION_MINOR @Bank_VERSION_MINOR@
