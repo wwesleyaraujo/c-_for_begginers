@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jose/courses/c_plus_plus_for_begginers/inheritance/src/Account.h
+
+/home/jose/courses/c_plus_plus_for_begginers/inheritance/src/Savings_Account.cpp
+Savings_Account.h
+/home/jose/courses/c_plus_plus_for_begginers/inheritance/src/Savings_Account.h
+iostream
+-
+
+/home/jose/courses/c_plus_plus_for_begginers/inheritance/src/Savings_Account.h
+Account.h
+/home/jose/courses/c_plus_plus_for_begginers/inheritance/src/Account.h
+
