@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jose/courses/c_plus_plus_for_begginers/inheritance
+CMAKE_SOURCE_DIR = /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jose/courses/c_plus_plus_for_begginers/inheritance/out/build
+CMAKE_BINARY_DIR = /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/out/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jose/courses/c_plus_plus_for_begginers/inheritance/out/build/CMakeFiles /home/jose/courses/c_plus_plus_for_begginers/inheritance/out/build/src/CMakeFiles/progress.marks
-	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/out/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jose/courses/c_plus_plus_for_begginers/inheritance/out/build/CMakeFiles 0
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build/CMakeFiles /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build/src/CMakeFiles/progress.marks
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/out/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,37 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/out/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/out/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/out/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
+src/CMakeFiles/derived_baser.dir/rule:
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/derived_baser.dir/rule
+.PHONY : src/CMakeFiles/derived_baser.dir/rule
+
+# Convenience name for target.
+derived_baser: src/CMakeFiles/derived_baser.dir/rule
+
+.PHONY : derived_baser
+
+# fast build rule for target.
+derived_baser/fast:
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build && $(MAKE) -f src/CMakeFiles/derived_baser.dir/build.make src/CMakeFiles/derived_baser.dir/build
+.PHONY : derived_baser/fast
+
+# Convenience name for target.
 src/CMakeFiles/accounter.dir/rule:
-	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/out/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/accounter.dir/rule
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/accounter.dir/rule
 .PHONY : src/CMakeFiles/accounter.dir/rule
 
 # Convenience name for target.
@@ -122,7 +137,7 @@ accounter: src/CMakeFiles/accounter.dir/rule
 
 # fast build rule for target.
 accounter/fast:
-	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/out/build && $(MAKE) -f src/CMakeFiles/accounter.dir/build.make src/CMakeFiles/accounter.dir/build
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build && $(MAKE) -f src/CMakeFiles/accounter.dir/build.make src/CMakeFiles/accounter.dir/build
 .PHONY : accounter/fast
 
 Account.o: Account.cpp.o
@@ -131,7 +146,7 @@ Account.o: Account.cpp.o
 
 # target to build an object file
 Account.cpp.o:
-	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/out/build && $(MAKE) -f src/CMakeFiles/accounter.dir/build.make src/CMakeFiles/accounter.dir/Account.cpp.o
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build && $(MAKE) -f src/CMakeFiles/accounter.dir/build.make src/CMakeFiles/accounter.dir/Account.cpp.o
 .PHONY : Account.cpp.o
 
 Account.i: Account.cpp.i
@@ -140,7 +155,7 @@ Account.i: Account.cpp.i
 
 # target to preprocess a source file
 Account.cpp.i:
-	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/out/build && $(MAKE) -f src/CMakeFiles/accounter.dir/build.make src/CMakeFiles/accounter.dir/Account.cpp.i
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build && $(MAKE) -f src/CMakeFiles/accounter.dir/build.make src/CMakeFiles/accounter.dir/Account.cpp.i
 .PHONY : Account.cpp.i
 
 Account.s: Account.cpp.s
@@ -149,8 +164,62 @@ Account.s: Account.cpp.s
 
 # target to generate assembly for a file
 Account.cpp.s:
-	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/out/build && $(MAKE) -f src/CMakeFiles/accounter.dir/build.make src/CMakeFiles/accounter.dir/Account.cpp.s
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build && $(MAKE) -f src/CMakeFiles/accounter.dir/build.make src/CMakeFiles/accounter.dir/Account.cpp.s
 .PHONY : Account.cpp.s
+
+Base.o: Base.cpp.o
+
+.PHONY : Base.o
+
+# target to build an object file
+Base.cpp.o:
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build && $(MAKE) -f src/CMakeFiles/derived_baser.dir/build.make src/CMakeFiles/derived_baser.dir/Base.cpp.o
+.PHONY : Base.cpp.o
+
+Base.i: Base.cpp.i
+
+.PHONY : Base.i
+
+# target to preprocess a source file
+Base.cpp.i:
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build && $(MAKE) -f src/CMakeFiles/derived_baser.dir/build.make src/CMakeFiles/derived_baser.dir/Base.cpp.i
+.PHONY : Base.cpp.i
+
+Base.s: Base.cpp.s
+
+.PHONY : Base.s
+
+# target to generate assembly for a file
+Base.cpp.s:
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build && $(MAKE) -f src/CMakeFiles/derived_baser.dir/build.make src/CMakeFiles/derived_baser.dir/Base.cpp.s
+.PHONY : Base.cpp.s
+
+Derive_Base.o: Derive_Base.cpp.o
+
+.PHONY : Derive_Base.o
+
+# target to build an object file
+Derive_Base.cpp.o:
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build && $(MAKE) -f src/CMakeFiles/derived_baser.dir/build.make src/CMakeFiles/derived_baser.dir/Derive_Base.cpp.o
+.PHONY : Derive_Base.cpp.o
+
+Derive_Base.i: Derive_Base.cpp.i
+
+.PHONY : Derive_Base.i
+
+# target to preprocess a source file
+Derive_Base.cpp.i:
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build && $(MAKE) -f src/CMakeFiles/derived_baser.dir/build.make src/CMakeFiles/derived_baser.dir/Derive_Base.cpp.i
+.PHONY : Derive_Base.cpp.i
+
+Derive_Base.s: Derive_Base.cpp.s
+
+.PHONY : Derive_Base.s
+
+# target to generate assembly for a file
+Derive_Base.cpp.s:
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build && $(MAKE) -f src/CMakeFiles/derived_baser.dir/build.make src/CMakeFiles/derived_baser.dir/Derive_Base.cpp.s
+.PHONY : Derive_Base.cpp.s
 
 Savings_Account.o: Savings_Account.cpp.o
 
@@ -158,7 +227,7 @@ Savings_Account.o: Savings_Account.cpp.o
 
 # target to build an object file
 Savings_Account.cpp.o:
-	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/out/build && $(MAKE) -f src/CMakeFiles/accounter.dir/build.make src/CMakeFiles/accounter.dir/Savings_Account.cpp.o
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build && $(MAKE) -f src/CMakeFiles/accounter.dir/build.make src/CMakeFiles/accounter.dir/Savings_Account.cpp.o
 .PHONY : Savings_Account.cpp.o
 
 Savings_Account.i: Savings_Account.cpp.i
@@ -167,7 +236,7 @@ Savings_Account.i: Savings_Account.cpp.i
 
 # target to preprocess a source file
 Savings_Account.cpp.i:
-	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/out/build && $(MAKE) -f src/CMakeFiles/accounter.dir/build.make src/CMakeFiles/accounter.dir/Savings_Account.cpp.i
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build && $(MAKE) -f src/CMakeFiles/accounter.dir/build.make src/CMakeFiles/accounter.dir/Savings_Account.cpp.i
 .PHONY : Savings_Account.cpp.i
 
 Savings_Account.s: Savings_Account.cpp.s
@@ -176,7 +245,7 @@ Savings_Account.s: Savings_Account.cpp.s
 
 # target to generate assembly for a file
 Savings_Account.cpp.s:
-	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/out/build && $(MAKE) -f src/CMakeFiles/accounter.dir/build.make src/CMakeFiles/accounter.dir/Savings_Account.cpp.s
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build && $(MAKE) -f src/CMakeFiles/accounter.dir/build.make src/CMakeFiles/accounter.dir/Savings_Account.cpp.s
 .PHONY : Savings_Account.cpp.s
 
 # Help Target
@@ -186,11 +255,18 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... derived_baser"
 	@echo "... edit_cache"
 	@echo "... accounter"
 	@echo "... Account.o"
 	@echo "... Account.i"
 	@echo "... Account.s"
+	@echo "... Base.o"
+	@echo "... Base.i"
+	@echo "... Base.s"
+	@echo "... Derive_Base.o"
+	@echo "... Derive_Base.i"
+	@echo "... Derive_Base.s"
 	@echo "... Savings_Account.o"
 	@echo "... Savings_Account.i"
 	@echo "... Savings_Account.s"
@@ -205,6 +281,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/out/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

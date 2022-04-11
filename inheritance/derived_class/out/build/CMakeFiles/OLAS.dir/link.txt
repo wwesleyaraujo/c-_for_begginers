@@ -1,1 +1,0 @@
-/usr/bin/c++    -g -Wall -std=c++17 CMakeFiles/OLAS.dir/main.cpp.o  -o OLAS  src/libaccounter.a 

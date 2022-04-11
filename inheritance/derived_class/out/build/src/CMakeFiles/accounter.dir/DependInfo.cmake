@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/jose/courses/c_plus_plus_for_begginers/inheritance/src/Account.cpp" "/home/jose/courses/c_plus_plus_for_begginers/inheritance/out/build/src/CMakeFiles/accounter.dir/Account.cpp.o"
-  "/home/jose/courses/c_plus_plus_for_begginers/inheritance/src/Savings_Account.cpp" "/home/jose/courses/c_plus_plus_for_begginers/inheritance/out/build/src/CMakeFiles/accounter.dir/Savings_Account.cpp.o"
+  "/home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/src/Account.cpp" "/home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build/src/CMakeFiles/accounter.dir/Account.cpp.o"
+  "/home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/src/Savings_Account.cpp" "/home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build/src/CMakeFiles/accounter.dir/Savings_Account.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

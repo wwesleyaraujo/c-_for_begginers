@@ -1,0 +1,2 @@
+/usr/bin/ar qc libderived_baser.a  CMakeFiles/derived_baser.dir/Base.cpp.o CMakeFiles/derived_baser.dir/Derive_Base.cpp.o
+/usr/bin/ranlib libderived_baser.a

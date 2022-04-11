@@ -6,17 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/main.cpp
+/home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/src/Base.h
+
+/home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/src/Derive_Base.cpp
+Derive_Base.h
+/home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/src/Derive_Base.h
+Base.h
+/home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/src/Base.h
 iostream
 -
-src/Account.h
-/home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/src/Account.h
-src/Derive_Base.h
-/home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/src/Derive_Base.h
-
-/home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/src/Account.h
-
-/home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/src/Base.h
 
 /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/src/Derive_Base.h
 Base.h

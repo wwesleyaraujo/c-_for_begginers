@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jose/courses/c_plus_plus_for_begginers/inheritance
+CMAKE_SOURCE_DIR = /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jose/courses/c_plus_plus_for_begginers/inheritance/out/build
+CMAKE_BINARY_DIR = /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jose/courses/c_plus_plus_for_begginers/inheritance/out/build/CMakeFiles /home/jose/courses/c_plus_plus_for_begginers/inheritance/out/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build/CMakeFiles /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jose/courses/c_plus_plus_for_begginers/inheritance/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,6 +122,19 @@ main: cmake_check_build_system
 main/fast:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
+
+#=============================================================================
+# Target rules for targets named derived_baser
+
+# Build rule for target.
+derived_baser: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 derived_baser
+.PHONY : derived_baser
+
+# fast build rule for target.
+derived_baser/fast:
+	$(MAKE) -f src/CMakeFiles/derived_baser.dir/build.make src/CMakeFiles/derived_baser.dir/build
+.PHONY : derived_baser/fast
 
 #=============================================================================
 # Target rules for targets named accounter
@@ -172,6 +185,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... main"
+	@echo "... derived_baser"
 	@echo "... accounter"
 	@echo "... main.o"
 	@echo "... main.i"

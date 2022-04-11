@@ -1,6 +1,7 @@
-/home/jose/courses/c_plus_plus_for_begginers/inheritance/out/build/CMakeFiles/rebuild_cache.dir
-/home/jose/courses/c_plus_plus_for_begginers/inheritance/out/build/CMakeFiles/edit_cache.dir
-/home/jose/courses/c_plus_plus_for_begginers/inheritance/out/build/CMakeFiles/main.dir
-/home/jose/courses/c_plus_plus_for_begginers/inheritance/out/build/src/CMakeFiles/rebuild_cache.dir
-/home/jose/courses/c_plus_plus_for_begginers/inheritance/out/build/src/CMakeFiles/edit_cache.dir
-/home/jose/courses/c_plus_plus_for_begginers/inheritance/out/build/src/CMakeFiles/accounter.dir
+/home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build/CMakeFiles/rebuild_cache.dir
+/home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build/CMakeFiles/edit_cache.dir
+/home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build/CMakeFiles/main.dir
+/home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build/src/CMakeFiles/rebuild_cache.dir
+/home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build/src/CMakeFiles/derived_baser.dir
+/home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build/src/CMakeFiles/edit_cache.dir
+/home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build/src/CMakeFiles/accounter.dir

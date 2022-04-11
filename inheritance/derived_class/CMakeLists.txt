@@ -11,7 +11,9 @@ add_executable("${PROJECT_NAME}" main.cpp)
 add_subdirectory(src) 
 
 #linking src/<libraries> labeled
-target_link_libraries(${PROJECT_NAME} accounter) 
+target_link_libraries(${PROJECT_NAME} accounter ) 
+target_link_libraries(${PROJECT_NAME} derived_baser)
+ 
 
 #targe preprocessor
 target_compile_definitions("${PROJECT_NAME}" PUBLIC BANK_VERSION=4 )

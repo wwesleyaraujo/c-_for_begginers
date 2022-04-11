@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jose/courses/c_plus_plus_for_begginers/inheritance
+CMAKE_SOURCE_DIR = /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jose/courses/c_plus_plus_for_begginers/inheritance/out/build
+CMAKE_BINARY_DIR = /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/accounter.dir/depend.make
@@ -59,29 +59,29 @@ include src/CMakeFiles/accounter.dir/flags.make
 
 src/CMakeFiles/accounter.dir/Account.cpp.o: src/CMakeFiles/accounter.dir/flags.make
 src/CMakeFiles/accounter.dir/Account.cpp.o: ../../src/Account.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jose/courses/c_plus_plus_for_begginers/inheritance/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/accounter.dir/Account.cpp.o"
-	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/out/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/accounter.dir/Account.cpp.o -c /home/jose/courses/c_plus_plus_for_begginers/inheritance/src/Account.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/accounter.dir/Account.cpp.o"
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/accounter.dir/Account.cpp.o -c /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/src/Account.cpp
 
 src/CMakeFiles/accounter.dir/Account.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/accounter.dir/Account.cpp.i"
-	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/out/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/courses/c_plus_plus_for_begginers/inheritance/src/Account.cpp > CMakeFiles/accounter.dir/Account.cpp.i
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/src/Account.cpp > CMakeFiles/accounter.dir/Account.cpp.i
 
 src/CMakeFiles/accounter.dir/Account.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/accounter.dir/Account.cpp.s"
-	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/out/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/courses/c_plus_plus_for_begginers/inheritance/src/Account.cpp -o CMakeFiles/accounter.dir/Account.cpp.s
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/src/Account.cpp -o CMakeFiles/accounter.dir/Account.cpp.s
 
 src/CMakeFiles/accounter.dir/Savings_Account.cpp.o: src/CMakeFiles/accounter.dir/flags.make
 src/CMakeFiles/accounter.dir/Savings_Account.cpp.o: ../../src/Savings_Account.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jose/courses/c_plus_plus_for_begginers/inheritance/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/accounter.dir/Savings_Account.cpp.o"
-	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/out/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/accounter.dir/Savings_Account.cpp.o -c /home/jose/courses/c_plus_plus_for_begginers/inheritance/src/Savings_Account.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/accounter.dir/Savings_Account.cpp.o"
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/accounter.dir/Savings_Account.cpp.o -c /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/src/Savings_Account.cpp
 
 src/CMakeFiles/accounter.dir/Savings_Account.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/accounter.dir/Savings_Account.cpp.i"
-	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/out/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/courses/c_plus_plus_for_begginers/inheritance/src/Savings_Account.cpp > CMakeFiles/accounter.dir/Savings_Account.cpp.i
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/src/Savings_Account.cpp > CMakeFiles/accounter.dir/Savings_Account.cpp.i
 
 src/CMakeFiles/accounter.dir/Savings_Account.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/accounter.dir/Savings_Account.cpp.s"
-	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/out/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/courses/c_plus_plus_for_begginers/inheritance/src/Savings_Account.cpp -o CMakeFiles/accounter.dir/Savings_Account.cpp.s
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/src/Savings_Account.cpp -o CMakeFiles/accounter.dir/Savings_Account.cpp.s
 
 # Object files for target accounter
 accounter_OBJECTS = \
@@ -95,9 +95,9 @@ src/libaccounter.a: src/CMakeFiles/accounter.dir/Account.cpp.o
 src/libaccounter.a: src/CMakeFiles/accounter.dir/Savings_Account.cpp.o
 src/libaccounter.a: src/CMakeFiles/accounter.dir/build.make
 src/libaccounter.a: src/CMakeFiles/accounter.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jose/courses/c_plus_plus_for_begginers/inheritance/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libaccounter.a"
-	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/out/build/src && $(CMAKE_COMMAND) -P CMakeFiles/accounter.dir/cmake_clean_target.cmake
-	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/out/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/accounter.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libaccounter.a"
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build/src && $(CMAKE_COMMAND) -P CMakeFiles/accounter.dir/cmake_clean_target.cmake
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/accounter.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/accounter.dir/build: src/libaccounter.a
@@ -105,10 +105,10 @@ src/CMakeFiles/accounter.dir/build: src/libaccounter.a
 .PHONY : src/CMakeFiles/accounter.dir/build
 
 src/CMakeFiles/accounter.dir/clean:
-	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/out/build/src && $(CMAKE_COMMAND) -P CMakeFiles/accounter.dir/cmake_clean.cmake
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build/src && $(CMAKE_COMMAND) -P CMakeFiles/accounter.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/accounter.dir/clean
 
 src/CMakeFiles/accounter.dir/depend:
-	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/out/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jose/courses/c_plus_plus_for_begginers/inheritance /home/jose/courses/c_plus_plus_for_begginers/inheritance/src /home/jose/courses/c_plus_plus_for_begginers/inheritance/out/build /home/jose/courses/c_plus_plus_for_begginers/inheritance/out/build/src /home/jose/courses/c_plus_plus_for_begginers/inheritance/out/build/src/CMakeFiles/accounter.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/src /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build/src /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build/src/CMakeFiles/accounter.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/accounter.dir/depend
 

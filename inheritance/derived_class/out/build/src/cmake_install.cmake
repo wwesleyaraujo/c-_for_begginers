@@ -1,4 +1,4 @@
-# Install script for directory: /home/jose/courses/c_plus_plus_for_begginers/inheritance/src
+# Install script for directory: /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

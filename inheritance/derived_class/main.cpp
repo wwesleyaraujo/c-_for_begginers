@@ -1,20 +1,18 @@
-#include <iostream>
+
+
+ #include <iostream>
 #include "src/Account.h"
-#include "src/Savings_Account.h"
+#include "src/Derive_Base.h"
 
 int main (int argc, char **argv){
     
-    Account ac;
-    Savings_Account sc ;
-    Account *p_ac {nullptr};
-    p_ac = new Account();
-    p_ac->deposit(50);
-    delete p_ac;
-    ac.deposit(10);
- 
-    sc.deposit(20);
+    Base b{100};
+    Base b1{b};
+    b = b1; 
 
-
+    Derive_Base db{200};
+    Derive_Base db1 {db};
+    db = db1;
     std::cout << "Bank version: " << BANK_VERSION<<std::endl;
     return 1;
  
