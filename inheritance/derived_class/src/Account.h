@@ -15,9 +15,7 @@ class Account
     public:
          
          //  Account(std::string name =  "Unnamed Account", double balance = 0.0)
-         Account(std::string name = def_name, double balance = def_balance);
-         
-        
+        Account(std::string name = def_name, double balance = def_balance);
         bool deposit(double amount);
         bool withdraw(double amount);
         double getBalance() const;

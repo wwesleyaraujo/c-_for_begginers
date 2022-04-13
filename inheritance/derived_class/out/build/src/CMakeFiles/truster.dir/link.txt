@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtruster.a  CMakeFiles/truster.dir/Trust_Account.cpp.o CMakeFiles/truster.dir/Savings_Account.cpp.o
+/usr/bin/ranlib libtruster.a

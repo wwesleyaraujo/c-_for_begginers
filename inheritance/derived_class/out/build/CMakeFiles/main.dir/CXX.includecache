@@ -13,12 +13,20 @@ src/Savings_Account.h
 /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/src/Savings_Account.h
 src/Derive_Base.h
 /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/src/Derive_Base.h
+src/Checking_Account.h
+/home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/src/Checking_Account.h
+src/Trust_Account.h
+/home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/src/Trust_Account.h
 
 /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/src/Account.h
 iostream
 -
 
 /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/src/Base.h
+
+/home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/src/Checking_Account.h
+Account.h
+/home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/src/Account.h
 
 /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/src/Derive_Base.h
 Base.h
@@ -27,4 +35,8 @@ Base.h
 /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/src/Savings_Account.h
 Account.h
 /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/src/Account.h
+
+/home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/src/Trust_Account.h
+Savings_Account.h
+/home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/src/Savings_Account.h
 

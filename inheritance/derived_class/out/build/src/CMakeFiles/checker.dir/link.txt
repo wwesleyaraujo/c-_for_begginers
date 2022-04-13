@@ -1,0 +1,2 @@
+/usr/bin/ar qc libchecker.a  CMakeFiles/checker.dir/Checking_Account.cpp.o CMakeFiles/checker.dir/Account.cpp.o
+/usr/bin/ranlib libchecker.a

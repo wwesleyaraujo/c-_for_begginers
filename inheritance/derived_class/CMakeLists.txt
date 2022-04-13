@@ -13,6 +13,8 @@ add_subdirectory(src)
 #linking src/<libraries> labeled
 target_link_libraries(${PROJECT_NAME} accounter ) 
 target_link_libraries(${PROJECT_NAME} derived_baser)
+target_link_libraries(${PROJECT_NAME} checker)
+target_link_libraries(${PROJECT_NAME} truster)
  
 
 #targe preprocessor

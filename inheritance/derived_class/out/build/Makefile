@@ -124,6 +124,32 @@ main/fast:
 .PHONY : main/fast
 
 #=============================================================================
+# Target rules for targets named truster
+
+# Build rule for target.
+truster: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 truster
+.PHONY : truster
+
+# fast build rule for target.
+truster/fast:
+	$(MAKE) -f src/CMakeFiles/truster.dir/build.make src/CMakeFiles/truster.dir/build
+.PHONY : truster/fast
+
+#=============================================================================
+# Target rules for targets named checker
+
+# Build rule for target.
+checker: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 checker
+.PHONY : checker
+
+# fast build rule for target.
+checker/fast:
+	$(MAKE) -f src/CMakeFiles/checker.dir/build.make src/CMakeFiles/checker.dir/build
+.PHONY : checker/fast
+
+#=============================================================================
 # Target rules for targets named derived_baser
 
 # Build rule for target.
@@ -185,6 +211,8 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... main"
+	@echo "... truster"
+	@echo "... checker"
 	@echo "... derived_baser"
 	@echo "... accounter"
 	@echo "... main.o"

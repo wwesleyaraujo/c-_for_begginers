@@ -3,8 +3,9 @@
 using namespace std;
 
  
-Account::Account( std::string name, double balance):name{name},balance{balance}{
-    
+Account::Account( std::string name, double balance)
+    :name{name},balance{balance}
+{
 }
  
 bool Account::deposit(double am){
@@ -36,4 +37,5 @@ Account::~Account(){
 
 std::ostream &operator<<(std::ostream &os, const Account &account){
     os<<"[Account: " << account.name << "] [Balance: " << account.balance <<"]";
+    return os;
 }

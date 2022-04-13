@@ -48,6 +48,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/main.dir/DependInfo.cmake"
+  "src/CMakeFiles/truster.dir/DependInfo.cmake"
+  "src/CMakeFiles/checker.dir/DependInfo.cmake"
   "src/CMakeFiles/derived_baser.dir/DependInfo.cmake"
   "src/CMakeFiles/accounter.dir/DependInfo.cmake"
   )

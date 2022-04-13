@@ -111,6 +111,36 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+src/CMakeFiles/truster.dir/rule:
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/truster.dir/rule
+.PHONY : src/CMakeFiles/truster.dir/rule
+
+# Convenience name for target.
+truster: src/CMakeFiles/truster.dir/rule
+
+.PHONY : truster
+
+# fast build rule for target.
+truster/fast:
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build && $(MAKE) -f src/CMakeFiles/truster.dir/build.make src/CMakeFiles/truster.dir/build
+.PHONY : truster/fast
+
+# Convenience name for target.
+src/CMakeFiles/checker.dir/rule:
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/checker.dir/rule
+.PHONY : src/CMakeFiles/checker.dir/rule
+
+# Convenience name for target.
+checker: src/CMakeFiles/checker.dir/rule
+
+.PHONY : checker
+
+# fast build rule for target.
+checker/fast:
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build && $(MAKE) -f src/CMakeFiles/checker.dir/build.make src/CMakeFiles/checker.dir/build
+.PHONY : checker/fast
+
+# Convenience name for target.
 src/CMakeFiles/derived_baser.dir/rule:
 	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/derived_baser.dir/rule
 .PHONY : src/CMakeFiles/derived_baser.dir/rule
@@ -146,6 +176,7 @@ Account.o: Account.cpp.o
 
 # target to build an object file
 Account.cpp.o:
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build && $(MAKE) -f src/CMakeFiles/checker.dir/build.make src/CMakeFiles/checker.dir/Account.cpp.o
 	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build && $(MAKE) -f src/CMakeFiles/accounter.dir/build.make src/CMakeFiles/accounter.dir/Account.cpp.o
 .PHONY : Account.cpp.o
 
@@ -155,6 +186,7 @@ Account.i: Account.cpp.i
 
 # target to preprocess a source file
 Account.cpp.i:
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build && $(MAKE) -f src/CMakeFiles/checker.dir/build.make src/CMakeFiles/checker.dir/Account.cpp.i
 	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build && $(MAKE) -f src/CMakeFiles/accounter.dir/build.make src/CMakeFiles/accounter.dir/Account.cpp.i
 .PHONY : Account.cpp.i
 
@@ -164,6 +196,7 @@ Account.s: Account.cpp.s
 
 # target to generate assembly for a file
 Account.cpp.s:
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build && $(MAKE) -f src/CMakeFiles/checker.dir/build.make src/CMakeFiles/checker.dir/Account.cpp.s
 	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build && $(MAKE) -f src/CMakeFiles/accounter.dir/build.make src/CMakeFiles/accounter.dir/Account.cpp.s
 .PHONY : Account.cpp.s
 
@@ -193,6 +226,33 @@ Base.s: Base.cpp.s
 Base.cpp.s:
 	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build && $(MAKE) -f src/CMakeFiles/derived_baser.dir/build.make src/CMakeFiles/derived_baser.dir/Base.cpp.s
 .PHONY : Base.cpp.s
+
+Checking_Account.o: Checking_Account.cpp.o
+
+.PHONY : Checking_Account.o
+
+# target to build an object file
+Checking_Account.cpp.o:
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build && $(MAKE) -f src/CMakeFiles/checker.dir/build.make src/CMakeFiles/checker.dir/Checking_Account.cpp.o
+.PHONY : Checking_Account.cpp.o
+
+Checking_Account.i: Checking_Account.cpp.i
+
+.PHONY : Checking_Account.i
+
+# target to preprocess a source file
+Checking_Account.cpp.i:
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build && $(MAKE) -f src/CMakeFiles/checker.dir/build.make src/CMakeFiles/checker.dir/Checking_Account.cpp.i
+.PHONY : Checking_Account.cpp.i
+
+Checking_Account.s: Checking_Account.cpp.s
+
+.PHONY : Checking_Account.s
+
+# target to generate assembly for a file
+Checking_Account.cpp.s:
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build && $(MAKE) -f src/CMakeFiles/checker.dir/build.make src/CMakeFiles/checker.dir/Checking_Account.cpp.s
+.PHONY : Checking_Account.cpp.s
 
 Derive_Base.o: Derive_Base.cpp.o
 
@@ -227,6 +287,7 @@ Savings_Account.o: Savings_Account.cpp.o
 
 # target to build an object file
 Savings_Account.cpp.o:
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build && $(MAKE) -f src/CMakeFiles/truster.dir/build.make src/CMakeFiles/truster.dir/Savings_Account.cpp.o
 	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build && $(MAKE) -f src/CMakeFiles/accounter.dir/build.make src/CMakeFiles/accounter.dir/Savings_Account.cpp.o
 .PHONY : Savings_Account.cpp.o
 
@@ -236,6 +297,7 @@ Savings_Account.i: Savings_Account.cpp.i
 
 # target to preprocess a source file
 Savings_Account.cpp.i:
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build && $(MAKE) -f src/CMakeFiles/truster.dir/build.make src/CMakeFiles/truster.dir/Savings_Account.cpp.i
 	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build && $(MAKE) -f src/CMakeFiles/accounter.dir/build.make src/CMakeFiles/accounter.dir/Savings_Account.cpp.i
 .PHONY : Savings_Account.cpp.i
 
@@ -245,8 +307,36 @@ Savings_Account.s: Savings_Account.cpp.s
 
 # target to generate assembly for a file
 Savings_Account.cpp.s:
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build && $(MAKE) -f src/CMakeFiles/truster.dir/build.make src/CMakeFiles/truster.dir/Savings_Account.cpp.s
 	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build && $(MAKE) -f src/CMakeFiles/accounter.dir/build.make src/CMakeFiles/accounter.dir/Savings_Account.cpp.s
 .PHONY : Savings_Account.cpp.s
+
+Trust_Account.o: Trust_Account.cpp.o
+
+.PHONY : Trust_Account.o
+
+# target to build an object file
+Trust_Account.cpp.o:
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build && $(MAKE) -f src/CMakeFiles/truster.dir/build.make src/CMakeFiles/truster.dir/Trust_Account.cpp.o
+.PHONY : Trust_Account.cpp.o
+
+Trust_Account.i: Trust_Account.cpp.i
+
+.PHONY : Trust_Account.i
+
+# target to preprocess a source file
+Trust_Account.cpp.i:
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build && $(MAKE) -f src/CMakeFiles/truster.dir/build.make src/CMakeFiles/truster.dir/Trust_Account.cpp.i
+.PHONY : Trust_Account.cpp.i
+
+Trust_Account.s: Trust_Account.cpp.s
+
+.PHONY : Trust_Account.s
+
+# target to generate assembly for a file
+Trust_Account.cpp.s:
+	cd /home/jose/courses/c_plus_plus_for_begginers/inheritance/derived_class/out/build && $(MAKE) -f src/CMakeFiles/truster.dir/build.make src/CMakeFiles/truster.dir/Trust_Account.cpp.s
+.PHONY : Trust_Account.cpp.s
 
 # Help Target
 help:
@@ -254,6 +344,8 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... truster"
+	@echo "... checker"
 	@echo "... rebuild_cache"
 	@echo "... derived_baser"
 	@echo "... edit_cache"
@@ -264,12 +356,18 @@ help:
 	@echo "... Base.o"
 	@echo "... Base.i"
 	@echo "... Base.s"
+	@echo "... Checking_Account.o"
+	@echo "... Checking_Account.i"
+	@echo "... Checking_Account.s"
 	@echo "... Derive_Base.o"
 	@echo "... Derive_Base.i"
 	@echo "... Derive_Base.s"
 	@echo "... Savings_Account.o"
 	@echo "... Savings_Account.i"
 	@echo "... Savings_Account.s"
+	@echo "... Trust_Account.o"
+	@echo "... Trust_Account.i"
+	@echo "... Trust_Account.s"
 .PHONY : help
 
 

@@ -3,15 +3,14 @@
  #include <iostream>
 #include "src/Savings_Account.h"
 #include "src/Derive_Base.h"
+#include "src/Checking_Account.h"
+#include "src/Trust_Account.h"
 using namespace std;
+
 int main (int argc, char **argv){
     
-    Account c1;
-      cout << c1 << endl;
-    Savings_Account s1;
-    cout << s1 << endl;
-    
-    cout << "Bank version: " << BANK_VERSION<< endl;
+   Trust_Account ta1;
+   cout <<ta1<<endl;
     return 0;
  
 }
