@@ -9,20 +9,20 @@ class Account {
 
 class Checking : public Account {
     public:
-        void withdraw(double amount){
+        virtual void withdraw(double amount){
             std::cout<<"Checking::withdraw"<<std::endl;
         }
 };
 
 class Savings: public Account {
     public:
-        void withdraw(double amount){
+        virtual void withdraw(double amount){
             std::cout<<"Savings::withdraw"<<std::endl;
         }
 };
 class Trust: public Account {
     public:
-        void withdraw(double amount){
+       virtual void withdraw(double amount){
             std::cout<<"Trust::withdraw"<<std::endl;
         }
 };

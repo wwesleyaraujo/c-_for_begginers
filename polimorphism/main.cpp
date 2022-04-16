@@ -25,5 +25,7 @@ int main(){
     greetings(b);
     greetings(d);
 
+    Base *ptr = new  Derived;
+    ptr->say_hello();
     return 0;
 }

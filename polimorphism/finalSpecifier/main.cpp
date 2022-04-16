@@ -9,8 +9,8 @@ class A{
 };
 
 class B : public A {
-    public:
-        virtual void something() final{
+        public:
+            virtual void something() final{
             std::cout << " Do something" <<std::endl;
         }
         ~B();
