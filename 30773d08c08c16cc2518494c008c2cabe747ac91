@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5e4d1bb8_20145b5e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1020159
+      },
+      "writtenOn": "2022-04-30T00:37:13Z",
+      "side": 1,
+      "message": " Dont delete the file, just add the pull_text.txt .",
+      "revId": "30773d08c08c16cc2518494c008c2cabe747ac91",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
